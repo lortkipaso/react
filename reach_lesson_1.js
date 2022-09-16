@@ -1,0 +1,17 @@
+function myfunction(...hi) {
+  console.log(hi);
+}
+myfunction(1, 2, 3);
+const x = ["hi", "hi-1", "hi-2"];
+const s = ["hi-3", "hi-4", "hi-5"];
+const last = [...x, ...s];
+console.log(last);
+const obj = {
+  one: 12,
+  two: 14,
+};
+const { one, two } = obj;
+console.log(one, two);
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
