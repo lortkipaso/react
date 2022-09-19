@@ -56,3 +56,5 @@ class car {
 }
 const newone = new car("Mersedes", "Maybach");
 console.log(newone.status());
+console.log(newone);
+// new promise

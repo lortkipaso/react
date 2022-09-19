@@ -15,3 +15,12 @@ console.log(one, two);
 for (let i = 0; i < 5; i++) {
   console.log(i);
 }
+const object1 = {
+  fname: "temo",
+  lname: "ok",
+};
+let texting = "";
+for (let x in object1) {
+  console.log(object1[x]);
+  texting += object1[x];
+}
